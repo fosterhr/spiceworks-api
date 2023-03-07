@@ -1,6 +1,6 @@
 # Spiceworks API
 
-This is a web scraper built with Flask and Selenium that extracts data from Spiceworks' endpoints. The script uses a pool of Selenium drivers to increase the speed of the scraping process.
+This is a web scraper built with Flask and Selenium that extracts data from Spiceworks. The script uses a pool of Selenium drivers to increase the speed of the scraping process.
 
 ## Installation
 
