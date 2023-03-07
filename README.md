@@ -16,7 +16,7 @@ Before running the script, you need to set the following constants:
 - `BASE_UR`: the base URL of the target website
 - `USER_EMAIL`: the email address of the user account to use for authentication
 - `USER_PASSWORD`: the password of the user account to use for authentication
-- `DRIVER_POOL_SIZE`: the number of Selenium drivers to use for the scraping process
+- `DRIVER_POOL_SIZE` (default 5): the number of Selenium drivers to use for the scraping process
 
 You can set these constants in the script file itself.
 
@@ -31,7 +31,7 @@ python app.py
 This will start the Flask application on port 80. You can access the API endpoints by visiting the following URLs:
 - `/api/tickets/`: returns all tickets
 - `/api/tickets/<status>`: returns tickets with a specific status
-- `/api/users`: returns all users
+- `/api/users/`: returns all users
 
 ## Contributing
 
