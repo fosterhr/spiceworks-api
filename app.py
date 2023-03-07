@@ -75,7 +75,7 @@ def api_tickets():
     return jsonify(get_tickets())
 
 # Define a Flask route for getting helpdesk tickets filtered by status
-@app.route('/api/tickets/<status>')
+@app.route('/api/tickets/<status>/')
 def api_tickets_status(status):
     # Get all helpdesk tickets
     tickets = get_tickets()
