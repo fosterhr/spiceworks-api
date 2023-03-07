@@ -30,7 +30,7 @@ python app.py
 
 This will start the Flask application on port 80. You can access the API endpoints by visiting the following URLs:
 - `/api/tickets/`: returns all tickets
-- `/api/tickets/<status>`: returns tickets with a specific status
+- `/api/tickets/<status>/`: returns tickets with a specific status
 - `/api/users/`: returns all users
 
 ## Contributing
