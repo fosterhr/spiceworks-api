@@ -88,7 +88,7 @@ def api_tickets_status(status):
     return open_tickets
 
 # Define a Flask route for getting all helpdesk users
-@app.route('/api/users')
+@app.route('/api/users/')
 def api_users():
     return jsonify(get_users())
 
