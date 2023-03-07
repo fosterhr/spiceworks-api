@@ -13,7 +13,7 @@ pip install Flask selenium
 ## Configuration
 
 Before running the script, you need to set the following constants:
-- `BASE_UR`: the base URL of the target website
+- `BASE_URL`: the base URL of the target website
 - `USER_EMAIL`: the email address of the user account to use for authentication
 - `USER_PASSWORD`: the password of the user account to use for authentication
 - `DRIVER_POOL_SIZE` (default 5): the number of Selenium drivers to use for the scraping process
