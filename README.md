@@ -38,7 +38,7 @@ This will start the Flask application on port 80. You can access the API endpoin
 - `/tickets/user/<user>/`: returns tickets from a specific user
 - `/tickets/status/<status>/`: returns tickets with a specific status
 - `/users/`: returns all end users
-- `/users/<user>`: returns the data for a specific end user
+- `/users/<user>/`: returns the data for a specific end user
 - `/admin/users/`: returns all admin users
 - `/admin/users/<user>/`: returns the data for a specific admin user
 
