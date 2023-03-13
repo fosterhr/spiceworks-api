@@ -4,10 +4,14 @@ This is a web scraper built with Flask and Selenium that extracts data from Spic
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `Flask` and `Selenium`.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required libraries to run this program:
 
 ```bash
 pip install -r requirements.txt
+```
+or
+```bash
+pip install Flask selenium
 ```
 
 ## Configuration
@@ -24,7 +28,7 @@ You can set these constants in the script file itself.
 ## Usage
 
 To run the script, simply execute the following command:
-```
+```bash
 python app.py
 ```
 
