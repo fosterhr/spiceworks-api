@@ -7,7 +7,7 @@ This is a web scraper built with Flask and Selenium that extracts data from Spic
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `Flask` and `Selenium`.
 
 ```bash
-pip install Flask selenium
+pip install -r requirements.txt
 ```
 
 ## Configuration
@@ -29,14 +29,28 @@ python app.py
 ```
 
 This will start the Flask application on port 80. You can access the API endpoints by visiting the following URLs:
-- `/api/tickets/`: returns all tickets
-- `/api/tickets/<status>/`: returns tickets with a specific status
-- `/api/users/`: returns all users
+- `/tickets/`: returns all tickets
+- `/tickets/id/<id>/`: returns a specific ticket based on it's ID
+- `/tickets/user/<user>/`: returns tickets from a specific user
+- `/tickets/status/<status>/`: returns tickets with a specific status
+- `/users/`: returns all end users
+- `/users/<user>`: returns the data for a specific end user
+- `/admin/users/`: returns all admin users
+- `/admin/users/<user>/`: returns the data for a specific admin user
 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
+
+## Change Log
+
+- 03/12/2023
+  - Added support for ticket and end user/admin user filters.
+  - Refactored the drivers into a class-based driver pool.
+  - Added `requirements.txt`.
+- 03/07/2023
+  - Initial commit.
 
 ## License
 
